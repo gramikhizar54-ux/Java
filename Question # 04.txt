@@ -1,0 +1,18 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        double o, d, dp, da;
+        System.out.println("Enter the discounted percentage: ");
+        dp = sc.nextFloat();
+        System.out.println("Enter the price after discount: ");
+        d = sc.nextFloat();
+        da = dp / 100 * d;
+        o = da + d;
+        System.out.println("Original price: " + o);
+
+    }
+}

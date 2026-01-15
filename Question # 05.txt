@@ -1,0 +1,17 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        double v, w, a;
+        System.out.println("Enter the total Amperes Consumed: ");
+        a = sc.nextFloat();
+        System.out.println("Enter the given voltage: ");
+        v = sc.nextFloat();
+        w = v * a;
+        System.out.println("Toatl Power Consumed: " + w + " Watts");
+
+    }
+}
