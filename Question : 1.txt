@@ -13,4 +13,5 @@ public class Main {
         per = obt / total * 100;
         System.out.println("Percentage: " + per + "%");
     }
+
 }
